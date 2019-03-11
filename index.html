@@ -1,5 +1,40 @@
 <html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-    <p>test!</p>
+    <div class="content container">
+        <div class="row">
+            <div class="col-s-12">
+                <a href="http://www.linkedin.com/in/nabahrizvi"><img src="linkedin.png" class="logo" /></a>
+                <a href="http://www.github.com/nrizvi"><img src="github.png" class="logo" /></a>
+                <a href="https://www.facebook.com/techmuslimblog/"><img src="facebook.png" class="logo" /></a>
+</div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <div class="col-s-12">
+                <h3 class="intro">
+                    Salaam! My name is <span class="specialWord">Naba Rizvi</span>.<br />
+                    I am a hackathon enthusiast, <br /> blogger, and developer <br /> from <span class="specialWord">Toledo, OH</span>.
+                </h3>
+            </div>
+        </div>
+        <div class="row specialWord">
+            <a href="http://www.devpost.com/nabahrizvi"><h4 class="links col-s-4">[  PROJECTS  ]</h4></a>
+            <h4 class="links col-s-4" onclick="displayMap()">[  TRAVEL  ]</h4>
+            <a href="http://www.technicallymuslim.wordpress.com"><h4 class="links col-s-4">[  WRITING  ]</h4></a>
+        </div>
+        <div class="row">
+            <div class="col-xs-12"><h4 id="map"></h4>
+            </div>
+        </div>
+    </div>
+    <script>
+        function displayMap() {
+            document.getElementById("map").innerHTML = "Data visualization coming soon!";
+        }
+    </script>
 </body>
 </html>

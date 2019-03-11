@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text');
+body {
+    background-color: #282e33;
+    color: #eff2e2;
+    font-family: 'Markazi Text', serif;
+}
+
+.specialWord {
+    color: #f19d94;
+}
+
+.map {
+    color: #d0b6a4;
+}
+
+.content{
+    width: 75%;
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    height: 25px;
+    margin-right: 25px;
+    display: block;
+    float: left;
+    margin-bottom: -22px;
+    border-radius: 5px;
+}
+
+.logo:hover {
+       opacity: 0.3;
+}
+
+a, a:hover {
+    color: inherit;
+}
+
+.links{
+    float: left;
+    display: flex;
+    margin-right: 40px;
+}
+
+.links:hover {
+        opacity: 0.3;
+}
+
+h4 {
+    margin-right: 25px;
+}
+
+.intro{
+    padding-bottom: 8px;
+}

@@ -54,3 +54,8 @@ h4 {
 .intro{
     padding-bottom: 8px;
 }
+
+#map {
+    padding-top: 8px;
+    color: #d0b6a4;
+}

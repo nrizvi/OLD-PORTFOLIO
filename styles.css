@@ -5,7 +5,7 @@ body {
     font-family: 'Markazi Text', serif;
 }
 
-.specialWord {
+.specialWord, a {
     color: #f19d94;
 }
 
@@ -58,4 +58,8 @@ h4 {
 #map {
     padding-top: 8px;
     color: #d0b6a4;
+}
+
+.projectUpdate{
+    width: 50%;
 }
